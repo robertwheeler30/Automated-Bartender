@@ -12,7 +12,7 @@ drink_list = [
 			"tonic": 150
 		}
 	}, {
-		"name": "Long Island",
+		"name": "Long Island Ice Tea",
 		"ingredients": {
 			"gin": 15,
 			"rum": 15,
