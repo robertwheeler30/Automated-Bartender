@@ -3,7 +3,7 @@ from pourActions import pump_one,pump_two,pump_three,pump_four,pump_five,pump_si
 
 window = Tk()
  
-window.title("ANTON: Automated Bartender")
+window.title("Automated Bartender")
  
 window.geometry('700x400')
 
