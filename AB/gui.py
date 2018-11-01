@@ -13,20 +13,20 @@ lbl = Label(window, text="List of Drinks",fg = 'red')
  
 lbl.grid(column=1, row=0)
  
-btn1 = Button(window, text="Rum and Coke",command = pump_one,fg = 'purple')
+btn1 = Button(window, text="Rum and Coke",command = pump_one,fg = 'navy')
 
-btn1.grid(column=2, row=1)
+btn1.grid(column=1, row=1)
 
 btn2 = Button(window, text="Screwdriver",command = pump_two,fg = 'navy')
  
-btn2.grid(column=3, row=2)
+btn2.grid(column=1, row=2)
 
 btn3 = Button(window, text="Long Island Ice Tea",command = pump_three,fg = 'navy')
  
-btn3.grid(column=4, row=3)
+btn3.grid(column=1, row=3)
 
-btn4 = Button(window, text="Long Island Ice Tea",command = pump_three,fg = 'navy')
+btn4 = Button(window, text="Vodka Seltzer",command = pump_three,fg = 'navy')
  
-btn4.grid(column=5, row=4)
+btn4.grid(column=1, row=4)
  
 window.mainloop()
