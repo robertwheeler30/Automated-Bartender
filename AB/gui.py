@@ -13,7 +13,7 @@ lbl = Label(window, text="List of Drinks",fg = 'red')
  
 lbl.grid(column=1, row=0)
  
-btn1 = Button(window, text="Rum and Coke",command = pump_one,fg = 'navy')
+btn1 = Button(window, text="Rum and Coke",command = pump_one,fg = 'purple')
 
 btn1.grid(column=2, row=1)
 
