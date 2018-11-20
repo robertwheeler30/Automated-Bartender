@@ -1,9 +1,10 @@
 import tkinter as tk
+from drinkList import drink_options
 
 class App():
     def __init__(self, parent):
         self.parent = parent
-        self.options = ['rum', 'coke', 'vodka', 'orange juice']
+        self.options = drink_options
 
         self.om_variable = tk.StringVar(self.parent)
         self.om_variable.set(self.options[0])
@@ -11,15 +12,6 @@ class App():
 
         self.om = tk.OptionMenu(self.parent, self.om_variable, *self.options)
         self.om.grid(column=0, row=0)
-
-        self.label = tk.Label(self.parent, text='Enter new option')
-        self.entry = tk.Entry(self.parent)
-        self.button = tk.Button(
-            self.parent, text='Add option to list', command=self.add_option)
-
-        self.label.grid(column=1, row=0)
-        self.entry.grid(column=1, row=1)
-        self.button.grid(column=1, row=2)
 
         self.update_button = tk.Button(
             self.parent, text='Update option menu', command=self.update_option_menu)
